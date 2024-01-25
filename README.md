@@ -31,4 +31,5 @@ else:
     hashText = hashlib.new(hashType, plainText.encode('utf8')).hexdigest()
     # print the hash to std out
     print(hashText)
-    sys.exit()```
+    sys.exit()
+```
